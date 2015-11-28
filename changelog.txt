@@ -1,2 +1,5 @@
 0.1.0
 - First Try
+
+0.2.0
+- use channels.json 
