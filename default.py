@@ -12,7 +12,7 @@ import xbmcaddon
 
 #addon = xbmcaddon.Addon()
 #addonID = addon.getAddonInfo('id')
-addonID = 'plugin.video.zdf_de_lite'
+addonID = 'plugin.video.mediaklikk_hu'
 addon = xbmcaddon.Addon(id=addonID)
 socket.setdefaulttimeout(30)
 pluginhandle = int(sys.argv[1])
@@ -21,7 +21,7 @@ addon_work_folder = xbmc.translatePath("special://profile/addon_data/"+addonID)
 channelFavsFile = xbmc.translatePath("special://profile/addon_data/"+addonID+"/"+addonID+".favorites")
 subFile = xbmc.translatePath("special://profile/addon_data/"+addonID+"/sub.srt")
 baseUrl = "http://www.zdf.de"
-defaultBackground = baseUrl+"/ZDFmediathek/img/fallback/946x532.jpg"
+defaultBackground = "http://www.mediaklikk.hu/wp-content/uploads/sites/4/2013/11/M1.png";
 
 if not os.path.isdir(addon_work_folder):
     os.mkdir(addon_work_folder)
