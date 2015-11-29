@@ -3,3 +3,6 @@
 
 0.2.0
 - use channels.json 
+
+0.3.0
+- use <server>/channels instead of local file
