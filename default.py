@@ -14,7 +14,7 @@ args = urlparse.parse_qs(sys.argv[2][1:])
 
 xbmcplugin.setContent(addon_handle, 'movies')
 
-mediaitems = json.load(urllib2.urlopen('http://127.0.0.1:5555/media'))
+mediaitems = json.load(urllib2.urlopen('http://piserver:5555/media'))
 
 def build_url(query):
     return base_url + '?' + urllib.urlencode(query)
