@@ -34,7 +34,7 @@ if mode is None:
 
 elif mode[0] == 'folder':
     foldername = args['foldername'][0]
-    for item in mediaitems:
+    for item in sorted(filter(lambda x: foldername in x['tags'], mediaitems), key=lambda x: x['name'], reverse=True):
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=item['url'], listitem=xbmcgui.ListItem(item['name'], iconImage=item['icon']), isFolder=False)		
 
 
