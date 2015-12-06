@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.mediaklikk_hu" name="MediaKlikk.hu" version="0.1.0" provider-name="balazs4">
+<addon id="plugin.video.mediabag" name="MediaBag" version="0.1.0" provider-name="balazs4">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -8,14 +8,13 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Live Stream of m1, m4</summary>
-        <summary lang="hu">m1, m4 elo adas</summary>
+        <summary lang="en">Mediabag</summary>
+        <summary lang="hu">Mediabag</summary>
         <language>hu</language>
-        <description lang="hu">m1, m4 elo adas</description>
-        <description lang="en">Live Stream of m1, m4</description>
+        <description lang="hu">Mediabag</description>
+        <description lang="en">Mediabag</description>
         <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>https://github.com/balazs4/plugin.video.mediaklikk_hu</source>
-        <website>http://www.mediaklikk.hu/</website>
+        <source>https://github.com/balazs4/plugin.video.mediabag</source>
     </extension>
 </addon>
