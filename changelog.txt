@@ -6,3 +6,6 @@
 
 0.3.0
 - use <server>/channels instead of local file
+
+0.3.1
+- dynamic directories based on tags
